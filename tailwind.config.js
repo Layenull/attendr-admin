@@ -16,6 +16,14 @@ module.exports = {
       colors: {
         customBlue: '#35C3F0',
       },
+
+      backgroundImage: {
+        'nfc': "url('../public/nfc-bg-Copy.png')",
+
+      }
+
+
+
     },
   },
   plugins: [],
