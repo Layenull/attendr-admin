@@ -18,7 +18,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        'nfc': "url('../public/nfc-bg-Copy.png')",
+        'nfc': "url('../public/blue-nfc.jpg')",
 
       }
 
