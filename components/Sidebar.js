@@ -105,7 +105,7 @@ const Sidebar = ({ children }) => {
 
                     {/* Schedule */}
 
-                    <Link href='/Schedule'>
+                    <Link href='/schedule'>
                         <div
                             onClick={() => handleLinkClick('schedule')}
                             className={`p-3 w-56  flex items-center ${isLinkActive('schedule') ? '' : 'bg-transparent'
@@ -124,6 +124,8 @@ const Sidebar = ({ children }) => {
                     </Link>
 
                     {/* Schedule-end */}
+
+
                 </div>
             </div>
 
