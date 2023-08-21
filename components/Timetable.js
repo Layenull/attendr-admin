@@ -18,7 +18,7 @@ const Timetable = ({ timetableData }) => {
                     {timetableData.map((timeSlot) => (
                         <tr key={timeSlot.time}>
                             <td className="border border-gray-400 p-2">{timeSlot.time}</td>
-                            <td className="border border-gray-400 p-2">{timeSlot.monday}</td>
+                            <td className="border border-gray-400 p-2 w-36">{timeSlot.monday}</td>
                             <td className="border border-gray-400 p-2">{timeSlot.tuesday}</td>
                             <td className="border border-gray-400 p-2">{timeSlot.wednesday}</td>
                             <td className="border border-gray-400 p-2">{timeSlot.thursday}</td>

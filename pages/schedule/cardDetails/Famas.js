@@ -4,7 +4,7 @@ import Timetable from '@/components/Timetable'
 const timetableData = [
     {
         time: '08:00 AM - 09:00 AM',
-        monday: 'Subject A',
+        monday: '(CSC 421) (BIO 234) (CHM 425) (VGC 234) (ABC 334) (TXT 456)',
         tuesday: 'Subject B',
         wednesday: 'Subject C',
         thursday: 'Subject D',

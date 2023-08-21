@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import { PiStudentLight } from "react-icons/pi";
+// import { PiStudentLight } from "react-icons/pi";
 import { LuCreditCard } from "react-icons/lu";
 import { BsCalendarDate } from "react-icons/bs";
 import { GoHome } from "react-icons/go"
@@ -58,7 +58,7 @@ const Sidebar = ({ children }) => {
 
                     {/* Student */}
 
-                    <Link href='/Students'>
+                    {/* <Link href='/Students'>
                         <div
                             onClick={() => handleLinkClick('students')}
                             className={`p-3 w-56  flex items-center ${isLinkActive('students') ? '' : 'bg-transparent'
@@ -74,7 +74,7 @@ const Sidebar = ({ children }) => {
                             </div>
                             <span className={`text-base font-medium ${isLinkActive('students') ? 'text-blue-500' : 'text-gray-600'}`}>Students</span>
                         </div>
-                    </Link>
+                    </Link> */}
                     {/* Student-end */}
 
 

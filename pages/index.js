@@ -15,7 +15,7 @@ export default function Home() {
 
         <div className='flex justify-center space-x-12 pl-32 pt-5 '>
           <Slidercard />
-          <Homecard />
+          {/* <Homecard /> */}
 
         </div>
       </main>
