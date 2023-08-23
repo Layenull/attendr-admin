@@ -19,6 +19,7 @@ module.exports = {
 
       backgroundImage: {
         'nfc': "url('../public/blue-nfc.jpg')",
+        'attendrhome': "url('../public/attendr-home.svg')",
 
       }
 
